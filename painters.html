@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TypeScript HTML App</title>
+    <link rel="stylesheet" href="styles/app.css" type="text/css" />
+    <link href="styles/app.css" rel="stylesheet" />
+    <!--<script src="scripts/app.js"></script>-->
+    <script data-main="scripts/main" src="scripts/libs/require.min.js"></script>
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-1">
+            <img class="logoImg" src="images/brush.png" />
+        </div>
+        <div class="col-md-11 pull-left">
+            <h1>Famous Painters</h1>
+        </div>
+        <div>
+            <select id="FamousPainter">
+                <option disabled>Choose a painter. . .</option>
+            </select>
+        </div>
+    </div>
+
+    <h3>Style(s)</h3>
+    <div class="painterStyle" id="PainterStyle">
+    </div>
+
+    <h3>Examples</h3>
+    <div class="examples" id="Examples">
+    </div>
+<!--
+
+    <h3>Other Painters</h3>
+    <div class="others" id="OtherPainters">
+        "Excercise for later."
+    </div>
+-->
+
+    <div id="content"></div>
+</body>
+</html>
